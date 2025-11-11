@@ -9,17 +9,17 @@ baseurl: "/portfolio" # the subpath of your site, e.g. /blog
 # Navigation
 urls:
     - text: Home
-      url: /
+      url: portfolio/
     - text: About
-      url: /about
+      url: portfolio/about
     - text: Blog
-      url: /blog
+      url: portfolio/blog
     - text: Gallery
-      url: /gallery
+      url: portfolio/gallery
     - text: Shop
-      url : /shop
+      url : portfolio/shop
     - text: Contact
-      url : /contact
+      url : portfolio/contact
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
