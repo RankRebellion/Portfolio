@@ -4,7 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
 url: "https://rankrebellion.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "/Portfolio" # the subpath of your site, e.g. /blog
+baseurl: "/Portfolio/" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
@@ -16,8 +16,6 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: Shop
-      url : /shop
     - text: Contact
       url : /contact
 
@@ -31,7 +29,7 @@ author_email: "AmyC5341@outlook.com"
 author_location: United Kingdom
 author_website_url: "https://sujaykundu.com"
 typewrite-text: Hi, my name is Amy Cooper. I build games.
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img: carcover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
@@ -50,18 +48,18 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: mit.png
+              - college_logo: staffs.jpg
                 college_name: University of Staffordshire
-                college_url: https://mit.org
+                college_url: https://www.staffs.ac.uk/
                 college_degree: Gameplay Design and Technology
                 description: Bachelor of Science
                 visibility: true
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
+              - project_thumbnail: posts\TombDefenseCover.png
+                project_title: Tomb Defense
+                project_description: A VR arcade shooter for Meta Quest headsets
                 project_url: https://gamershub.in
                 visibility: true
               - project_thumbnail: hack4r.PNG
@@ -95,7 +93,7 @@ mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50b
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+formspree_email: AmyC5341@outlook.com
 
 # releases - widget can be (sidebar, modal or embed)
 olvy_organization: devlopr
